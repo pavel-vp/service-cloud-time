@@ -10,7 +10,7 @@ public class TimeController {
 
     @GetMapping("/time")
     public String getTime() {
-        return "--"+LocalDateTime.now().toString();
+        return "---"+LocalDateTime.now().toString();
     }
 
 }
